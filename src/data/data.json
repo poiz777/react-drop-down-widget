@@ -1,0 +1,21 @@
+{
+  "suggestions" : [
+    "Love",
+    "Peace",
+    "Nothingness",
+    "Light",
+    "Wisdom",
+    "Truth",
+    "Harmony",
+    "Understanding",
+    "Joy",
+    "Freedom",
+    "Courage",
+    "Faith",
+    "Bravery"
+  ],
+  "appRootID": "root",
+  "fieldName" : "pz_django",
+  "defaultValue" : "SELECT YOUR MORAL IDEAL",
+  "className": "pz-drop-down-field form-control"
+}

@@ -1,0 +1,92 @@
+.pz-drop-down-wrapper {
+    display: block;
+    margin: 50px 200px;
+    width: 21.2em;
+    padding: 0;
+}
+
+.pz-drop-down {
+    position: relative;
+    display: inline-block;
+}
+.pz-drop-down-field {
+    height: 30px;
+    width: 17em;
+    border: 1px solid gray;
+    outline:none;
+    font-size: 1em;
+    padding: 5px 55px 5px 10px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.pz-drop-down-indicator {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 18px;
+    background: rgba(128, 128, 128, 0.3);
+    border-left: solid 1px gray;
+    cursor: pointer;
+}
+
+.pz-arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #808080;
+}
+
+input.pz-suggestion-input {
+    border: none;
+    background: transparent;
+    font-size: 0.95em;
+    font-weight: 300;
+    outline: none;
+    padding: 10px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    transition: all .35s;
+    cursor: pointer;
+}
+
+.pz-suggestion-input:hover{
+    background: rgba(255, 165, 0, 0.5);
+}
+
+.pz-suggestion-input:focus{
+    background: lightgreen;
+}
+
+.pz-child-suggestion-box{
+    border-bottom: solid 1px #ababab;
+}
+
+.pz-child-suggestion-box:last-child{
+    border-bottom: none;
+}
+
+.pz-drop-down-children{
+    background: #eaeaea;
+    border: solid 1px #ababab;
+    border-top: none;
+    max-height: 194px;
+    overflow: scroll;
+}
+
+.pz-drop-down-children.pz-hide{
+    display:none;
+}
+
+.pz-drop-down-children.pz-show{
+    display:block;
+}
